@@ -1,0 +1,10 @@
+#comName{ color: brown; background: black;}
+#b1{
+    float: left;
+    padding: 20%;
+    background: blueviolet;
+}
+#b2{float: right;
+padding: 20%;
+background: blueviolet; }
+body{background: gray;}
