@@ -1,10 +1,34 @@
-#comName{ color: brown; background: black;}
-#b1{
-    float: left;
+#comName {
+    color: brown;
+    background: black;
+    width: 100%;
+}
+
+#b1 {
     padding: 20%;
     background: blueviolet;
+    width: 400px;
+    cursor: pointer;
 }
-#b2{float: right;
-padding: 20%;
-background: blueviolet; }
-body{background: gray;}
+
+#b2 {
+    padding: 20%;
+    background: blueviolet;
+    width: 400px;
+    cursor: pointer;
+}
+
+body {
+    background: gray;
+
+}
+
+.box1 {
+    display: flex; 
+} 
+ 
+@media(max-width: 800px) { 
+    .box1 { 
+        flex-direction: column; 
+    }
+}
