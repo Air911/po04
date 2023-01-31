@@ -19,12 +19,12 @@
 }
 
 body {
-    background: gray;
+    background: #00009f;
 
 }
 
 .box1 {
-    display: flex; 
+    display: flex;
 } 
  
 @media(max-width: 800px) { 
